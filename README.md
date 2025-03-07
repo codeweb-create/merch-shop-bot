@@ -1,4 +1,40 @@
-# 🤖 Telegram-бот для интернет-магазина мерча
+# 🤖 Telegram Bot for Merchandise Store
+
+## 🔹 Project Description
+This project is a Telegram bot for selling corporate merchandise. It allows customers to browse products, place orders, and receive assistance from an AI-powered assistant.
+
+## 🛠️ Technologies
+- **Rebus** – Product catalog management
+- **OpenAI API** – AI assistant request processing
+- **Telegram Bot API** – Interaction with customers
+- **Python + python-telegram-bot** – Bot development
+
+## ⚙️ Bot Features
+- Product catalog browsing
+- Product details and availability clarification
+- Order placement assistance
+- Answers to questions about payment, delivery, and returns
+- Manager notifications about orders
+
+## 🔄 Running the Bot 24/7
+### VPS (Server) – Recommended Option
+- Uses a cloud server (VPS)
+- Install Python, run with `nohup python bot.py &`
+- Autostart via `systemd`
+
+### Railway.app / Render.com / Google Cloud Run
+- **Railway**: `railway init` → `railway up`
+- **Render**: Upload code, start Python service
+- **Google Cloud Run**: Deploy using a container
+
+### Local Server / Raspberry Pi
+- Running on a home device: `nohup python bot.py &` (device must stay powered on)
+
+### Docker Container
+- **Build Image**: `docker build -t bot .`
+- **Run**: `docker run -d bot`
+
+  # 🤖 Telegram-бот для интернет-магазина мерча
 
 ## 🔹 Описание проекта
 Этот проект — Telegram-бот для продажи корпоративного мерча.  
